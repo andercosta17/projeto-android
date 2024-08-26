@@ -43,10 +43,10 @@ header {
 }
 
 header > h1 {
-    font-weight: normal;
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
+    font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
@@ -55,12 +55,12 @@ header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color: white;
-    width: 500px;
-    margin: auto;
+    max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    margin: auto;
     padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 nav {
